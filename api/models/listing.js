@@ -12,7 +12,7 @@ const listingSchema =new mongoose.Schema({
         type:String,
         required:true,
     },
-    price:{
+    regularPrice:{
         type:Number,
         required:true
     },
@@ -44,7 +44,7 @@ const listingSchema =new mongoose.Schema({
         type:Boolean,
         required:true,
     },
-    image:{
+    imageUrls:{
         type:Array,
         required:true,
     },

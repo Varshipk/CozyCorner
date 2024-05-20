@@ -18,7 +18,7 @@ export default function About() {
         CozyCorner provides a distinct and cozy experience, ensuring your stay
         is as special as your destination.
       </p>
-      <p className="mb-4 text-slate-600">
+      <p className="mb-4 text-lg text-slate-600">
         At CozyCorner, we prioritize simplicity, safety, and satisfaction. Our
         user-friendly platform makes booking easy, and our verified listings
         ensure secure and reliable stays. Join our community of travelers and

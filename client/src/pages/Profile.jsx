@@ -242,7 +242,7 @@ export default function Profile() {
               className="border p-3 rounded-md flex justify-between items-center gap-2"
               key={listing._id}
             >
-              <Link to={`listing/${listing._id}`}>
+              <Link to={`/listing/${listing._id}`}>
                 <img
                   src={listing.imageUrls[0]}
                   alt="listing-image"
@@ -251,7 +251,7 @@ export default function Profile() {
               </Link>
               <Link
                 className="font-semibold hover:underline flex-1 truncate "
-                to={`listing/${listing._id}`}
+                to={`/listing/${listing._id}`}
               >
                 <p>{listing.name}</p>
               </Link>
